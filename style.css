@@ -1,0 +1,65 @@
+#gora {
+    background-color: aqua;
+}
+#srodek{
+    background-color: green;
+}
+#dol{
+    background-color: red;
+}
+#cztery {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    opacity: 30%;
+}
+#piec {
+        background-color: black;
+    width: 300px;
+    height: 200px;
+    opacity: 0%;
+    color: pink;
+}
+.hero {
+    background-image: url(wzorek.png);
+    height: 60%;
+   
+}
+#box1 {
+    background-image: url(wzorek.png);
+    background-repeat: no-repeat;
+}
+#box2 {
+     background-image: url(wzorek.png);
+     background-repeat: repeat-y;
+}
+#box3 {
+    background-image: url(wzorek.png);
+    background-repeat: repeat-y repeat-x;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  background-image: url("wzorek.png");
+  background-size: cover;
+  border: 1px solid #ccc;
+}
+
+.pos1 { background-position: left top; }
+.pos2 { background-position: center top; }
+.pos3 { background-position: right top; }
+
+.pos4 { background-position: left center; }
+.pos5 { background-position: center center; }
+.pos6 { background-position: right center; }
+
+.pos7 { background-position: left bottom; }
+.pos8 { background-position: center bottom; }
+.pos9 { background-position: right bottom; }
